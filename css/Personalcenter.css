@@ -1,0 +1,265 @@
+body,p,dl,dd,ul,ol,li,div,h1,h2,h3,h4,h5,h6,form,input,table,tr,td{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: "微软雅黑",Arial;
+	background: #e9ecf0;
+	background: white;
+	/*height: 100%;
+	display: -webkit-flex;
+	-webkit-flex-direction:column;*/
+}
+html{
+	/*font-size: 100px;*/
+	font-size: 26.67vw;
+	/*height: 100%;*/
+}
+ul,ol{
+	list-style:none;
+}
+img{
+	border: 0;
+}
+.header{
+	width:100%;
+	height:.44rem;
+	background:white;
+	display: flex;
+}
+.header_left{
+	width: .88rem;
+	height: .44rem;
+}
+.header_left h3{
+	font-size:.35rem;
+	color:#292c50;
+	padding-left: .17rem;
+	font-weight:normal;	
+}
+.header_center{
+	width: 1.99rem;
+	height: .44rem;
+	text-align: center;
+	line-height: .44rem;
+}
+.header_center h3{
+	font-weight: normal;
+	font-size:.15rem;
+	color: #23264b;
+}
+/*section*/
+.section{
+	width: 100%;
+	height: 5.73rem;
+	background:#e5e8ec;
+}
+.section_top{
+	width: 100%;
+	height: 1.12rem;
+	background: orange;
+}
+.box{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: .24rem;
+}
+.box_photo{
+	background: pink;
+	width:.64rem;
+	height:.64rem;
+	border-radius: 50%;
+}
+.box_photo img{
+	width: .6rem;
+	height: .6rem;
+	display: block;
+	border-radius: 50%;
+	margin:0.02rem;
+}
+.box_words{
+	/*background: greenyellow;*/
+	width: .98rem;
+	height: .41rem;
+	margin-left: .21rem;
+}
+.box_words p{
+	font-size:.1rem;
+	color:white;
+}
+.members{
+	width: .66rem;
+	height: .17rem;
+	background: #fe6600;
+	border-radius: 0.09rem;	
+	margin-top:0.07rem;
+	font-size:.1rem;
+	text-align: center;
+	line-height: .17rem;
+}
+.box_words a{
+	color: white;
+	text-decoration: none;
+}
+.panel{
+	width:3.6rem;
+	height: 1.17rem;
+	background:white;
+	margin:0 0.08rem;
+	margin-bottom:0.08rem;
+	border-radius: 0.06rem;
+}
+.panel-head{
+	width: 3.6rem;
+	height: .44rem;
+}
+.panel_box{
+	line-height: .44rem;
+    display: flex;
+    margin: 0rem .18rem;
+    border-bottom:1px solid #edf0f3;
+}
+.panel_box1{
+	width:1.63rem;
+	height:.44rem;
+	font-size:.15rem;
+	color:#232628;
+	margin-left: .16rem;
+}
+.panel_box2{
+	width:1.63rem;
+	height:.44rem;
+	font-size:.15rem;
+	color:#232628;
+	text-indent:0.7rem;
+}
+.panel-body{
+	width: 3.6rem;
+	height: .73rem;	
+	display: flex;
+}
+.panel-body1{
+	width: 1.2rem;
+	height: .73rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.order-item-icon{
+	width: .32rem;
+	height: .32rem;
+	display: block;
+}
+.panel-body1 p{
+	font-size:.12rem;
+	color:#232628;
+}
+.preferential{
+	width: 3.6rem;
+	height: 1.8rem;
+	background: white;
+	margin: 0 0.08rem;
+    margin-bottom: 0.08rem;
+    border-radius: 0.06rem;
+}
+.linkbox{
+	width:3.6rem;
+	height:1rem;
+}
+.linkbox-item{
+	display: flex;
+    border-bottom:1px solid #f2f4f6;
+}
+.linkbox-itemy{
+	margin:0rem .18rem;
+	border:none;
+}
+.linkbox-items{
+	width: .9rem;
+	height: .9rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.vouchers{
+	width: .2rem;
+	height: .2rem;
+}
+.vouchers_word{
+	width: .9rem;
+	text-align:center;
+}
+.linkbox-items img{
+	width: .2rem;
+	height: .2rem;
+	display: block;
+}
+.linkbox-items p{
+	font-size:.11rem;
+	color:#232628;
+	margin-top: .14rem; 
+}
+.help{
+	width: 3.6rem;
+	height: .9rem;
+	border-radius: 0.06rem;
+	background: white;
+	margin:0 0.08rem;
+	}
+/*Tabbar*/
+.tabbar{
+	width: 100%;
+	height: .49rem;
+	background: white;
+	display: flex;
+	align-items: center;
+}
+.tabbar-item{
+	width: .94rem;
+	height: .49rem;
+	align-items: center;
+}
+.tabbar-item img{
+	width:.24rem;
+	height: .26rem;
+	display: block;
+	padding-left:.36rem;
+}
+.tabbar-item p{
+	font-size:.1rem;
+	color:#232628;
+	text-align: center;
+	padding-top: 0.08rem;
+}
+.tabbar-item .first_page{
+	color: #ff734c;
+}
+/*Tabbar*/
+.tabbar{
+	width: 100%;
+	height: .49rem;
+	background:white;
+  display: flex;
+  justify-content:center;
+}
+.tabbar-item{
+	width:.9rem;
+	height:.49rem;
+}
+.tabbar_box{
+	width: .9rem;
+	height: .26rem;
+}
+.tabbar_box img{
+	width:0.24rem;
+	height: 100%;
+	display: block;
+}
+.tabbar_words p{
+	width: .94rem;
+    font-size:.1rem;
+    color:#232628;
+}

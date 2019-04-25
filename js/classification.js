@@ -1,0 +1,94 @@
+function testf(){
+	$("#menu1").onclick=function(){
+		$("#catebox-details").style.display="block";
+		$("#flowers").style.display="none";
+		$("#eternal-life").style.display="none";
+		$("#cake").style.display="none";
+		$("#chocolate").style.display="none";
+		$("#gift").style.display="none";
+		$("#gift-baskets").style.display="none";
+        $("#green-plant").style.display="none";
+	}
+	$("#menu").onclick=function(){
+		$("#flowers").style.display="block";
+        $("#catebox-details").style.display="none";
+        $("#eternal-life").style.display="none";
+		$("#cake").style.display="none";
+		$("#chocolate").style.display="none";
+		$("#gift").style.display="none";
+		$("#gift-baskets").style.display="none";
+        $("#green-plant").style.display="none";
+	}
+	$("#menu2").onclick=function(){
+		$("#eternal-life").style.display="block";
+		$("#flowers").style.display="none";
+        $("#catebox-details").style.display="none";
+		$("#cake").style.display="none";
+		$("#chocolate").style.display="none";
+		$("#gift").style.display="none";
+		$("#gift-baskets").style.display="none";
+        $("#green-plant").style.display="none";
+	}
+	$("#menu3").onclick=function(){
+		$("#cake").style.display="block";
+		$("#eternal-life").style.display="none";
+		$("#flowers").style.display="none";
+        $("#catebox-details").style.display="none";
+		$("#chocolate").style.display="none";
+		$("#gift").style.display="none";
+		$("#gift-baskets").style.display="none";
+        $("#green-plant").style.display="none";
+	}
+	$("#menu4").onclick=function(){
+		$("#chocolate").style.display="block";
+		$("#cake").style.display="none";
+		$("#eternal-life").style.display="none";
+		$("#flowers").style.display="none";
+        $("#catebox-details").style.display="none";
+		$("#gift").style.display="none";
+		$("#gift-baskets").style.display="none";
+        $("#green-plant").style.display="none";
+	}
+	$("#menu5").onclick=function(){
+		$("#gift").style.display="block";
+		$("#chocolate").style.display="none";
+		$("#cake").style.display="none";
+		$("#eternal-life").style.display="none";
+		$("#flowers").style.display="none";
+        $("#catebox-details").style.display="none";
+		$("#gift-baskets").style.display="none";
+        $("#green-plant").style.display="none";
+	}
+	$("#menu6").onclick=function(){
+		$("#gift-baskets").style.display="block";
+		$("#gift").style.display="none";
+		$("#chocolate").style.display="none";
+		$("#cake").style.display="none";
+		$("#eternal-life").style.display="none";
+		$("#flowers").style.display="none";
+        $("#catebox-details").style.display="none";
+        $("#green-plant").style.display="none";
+	}
+	$("#menu7").onclick=function(){
+		$("#green-plant").style.display="block";
+		$("#gift-baskets").style.display="none";
+		$("#gift").style.display="none";
+		$("#chocolate").style.display="none";
+		$("#cake").style.display="none";
+		$("#eternal-life").style.display="none";
+		$("#flowers").style.display="none";
+        $("#catebox-details").style.display="none";
+	}
+}
+window.onload=function(){
+	testf();
+}
+function $(str){
+  if(str.charAt(0)=="#"){
+    return document.getElementById(str.substring(1));
+  }else if(str.charAt(0)=="."){
+    return document.getElementsByClassName(str.substring(1));
+  }else{
+    return document.getElementsByTagName(str);
+  }
+}

@@ -1,0 +1,628 @@
+  body,p,dl,dd,ul,ol,li,div,h1,h2,h3,h4,h5,h6,form,input,table,tr,td{
+	margin:0;
+	padding:0;
+}
+  body{
+  	font-family: "微软雅黑",Arial;
+  	background: #e9ecf0;
+    width: 100%;
+  	height: 100%;
+    box-sizing:border-box;
+  	display: -webkit-flex;
+  	-webkit-flex-direction:column;
+  }
+html{
+	/*font-size: 100px;*/
+	font-size: 26.67vw;
+	height: 100%;
+}
+ul,ol{
+	list-style:none;
+}
+img{
+	border: 0;
+}
+
+/*header*/
+
+.header_top{
+	width: 100%;
+	height:0.48rem;
+	background:#435448;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header_top .iconfont{
+	font-size:0.18rem;
+	color: white;
+	margin-left:0.16rem;
+}
+.flower_net img{
+    display: block;
+    width:1.5rem;
+    height: 0.2rem;
+}
+.header_top h3{
+	font-size:0.12rem;
+	color: white;
+	font-weight: normal;
+	margin-right: 0.12rem;
+}
+.header_top h3 a{
+	color: white;
+    text-decoration: none;
+}
+.content{
+	overflow-y:auto;
+	overflow-x: hidden;
+	flex: 1;
+}
+/*轮播图*/
+.swiper-slide img{
+	display: block;
+	width: 100%;
+	height: 1.8rem;
+}
+/*14年品牌*/
+.brand{
+	width: 100%;
+	height: 0.36rem;
+	/*background: red;*/
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+	background: white;
+}
+.yes{
+	display: flex;
+	align-items: center;
+  height:.2rem;
+}
+.yes img{
+  width: .11rem;
+}
+.yes h4{
+	font-size:0.12rem;
+    font-weight: 100; 
+  }
+
+/*species*/
+.species{
+	width: 100%;
+	height:.68rem;
+	/*background: red;*/
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: white;
+}
+.species_box{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.species_box a img{
+	display: block;
+	width:.36rem;
+	height:.36rem;
+}
+.species_box a{
+	color: #232628;
+	text-decoration: none;
+}
+.species_box  p{
+	font-size: 0.12rem;
+}
+  /*The novice exclusive */
+  .exclusive{
+  	width: 100%;
+  	height: 1.08rem;
+  	background: red;
+ }
+ .exclusive_box{
+ 	width: 100%;
+ 	height:1.08rem;
+ }
+ .exclusive_box a img{
+ 	width: 100%;
+ 	height:1.08rem;
+ 	display: block;
+ }
+ /*一秒选花*/
+ .select{
+ 	width: 100%;
+ 	height: .4rem;
+ 	display:flex;
+ 	align-items: center;
+ 	background: white;
+ }
+ 
+ .select h3{
+ 	font-size: 0.14rem;
+ 	text-indent:6px;
+ 	font-weight: normal;
+ }
+ .select_box{
+ 	display: flex;
+ 	align-items: center;
+ 	margin-left:0.12rem;
+ }
+ .select_box img{
+ 	height: 0.16rem;
+ 	display: block;
+ }
+  /*Sending flowers*/
+  .Sending{
+  	width: 100%;
+  	height:1.5rem;
+  	/*background: red;*/
+  	display: flex;
+  	justify-content: space-around;
+  	align-items: center;
+  	background: white;
+  }
+  .lovers{
+  		position: relative;
+  }
+  .lovers img{
+  	width:1.16rem;
+  	height:1.26rem;
+  	display: block;
+  }
+  .lovers span{
+  	font-size: 0.12rem;
+  	position: absolute;
+  	left:.36rem;
+  	top:0.12rem;
+  }
+  /*生日祝福*/
+  .birthday{
+  	width: 100%;
+  	height:0.98rem;
+  	background:white;
+  }
+  .birthday{
+   display: flex;
+   justify-content: space-around;
+  }
+  .birthday_box img{
+   width:.86rem;
+   height: .98rem;
+   display: block;
+  }
+  .birthday_box{
+  	position: relative;
+  }
+  .birthday_box span{
+  	font-size: 0.12rem;
+  	position: absolute;
+  	left:.18rem;
+  	top:0.12rem; 
+  }
+  /*热销榜*/
+  .hotlist{
+  	width:100%;
+  	height: 1.6rem;
+  	/*background: red;*/
+  	border: 1px solid #e9ecf0;
+  	display: flex;
+  }
+  .hotlist_left{
+  	width:1.8rem;
+  	height:1.6rem;
+  	background: skyblue;
+  	border-right: 1px solid #e9ecf0;
+  	background: url(../img/m_home_ranklist.png) no-repeat center;
+  	background-size:100% 100%; 
+  }
+  .hotlist_left p{
+  	font-size:.12rem;
+  	color: #232628;
+  	margin-left:.12rem;
+  }
+  .hotlist_left p:nth-child(1){
+  	
+  	padding-top:.16rem;
+  }
+  .hotlist_left p:nth-child(2){
+  	font-size:.1rem;
+  	color:#71797f;
+  	padding-top:0.04rem;
+  }
+  .everyone_box{
+  	display: flex;
+  	margin-top:.82rem;
+  	margin-left:.12rem; 
+  }
+  .everyone_box a{
+  	display: block;
+  	width: .62rem;
+  	height: .16rem;
+  	background:#ff734c;
+  	color: white;
+  	font-size:0.09rem;
+  	text-align: center;
+  	line-height: .16rem;
+  	border-radius: 0.08rem;
+  	text-decoration:none;
+  }
+  .everyone_box span{
+  	font-size: .1rem;
+  	color: #232628;
+  	text-indent:.23rem;
+  }
+  .hotlist_left:nth-child(2){
+  	width:1.92rem;
+  	height:1.6rem;
+  	/*background:orange;*/
+  	background: url(../img/m_home_special.png) no-repeat center;
+  	background-size: 100% 100%;
+  }
+  .everyone_box .money{
+  	color:#b4babf;
+  	font-size: 1rem;
+  	text-decoration: line-through;
+  }
+  /*新品*/
+  .new{
+  	width: 100%;
+  	height:1.3rem;
+  	background:white;
+  	display: flex;
+  	justify-content: space-around;
+  }
+  .new_box img{
+  	width:1.17rem;
+  	height: 1.3rem;
+  	display: block;
+  }
+  .new_box{
+  	position: relative;
+  }
+  .box{
+  	width:100%;
+  	height: .24rem;
+  	background: black;
+  	opacity:0.7;
+  	position: absolute;
+  	left: 0;
+  	bottom: 0;
+  	font-size:.12rem;
+  	color: white;
+  	text-align: center;
+  	line-height: .24rem;
+  }
+  
+  /*推荐*/
+  .recommended{
+  	width: 100%;
+  	height: .56rem;
+  	background:white;
+  }
+  .recommended h3{
+  	font-size:.16rem;
+  	color: #232628;
+  	font-weight: 100;
+  	text-align: center;
+  	line-height: .56rem;
+  }
+  /*heretofore*/
+  .heretofore{
+  	width: 100%;
+  }
+  .heretofore_box{
+  	display: flex;
+  }
+  .heretofore_left{
+  	width: 1.76rem;
+  	height: 1.92rem;
+  }
+  .heretofore_left img{
+  	display: block;
+  	width: 1.76rem;
+  	height: 1.92rem;
+  }
+ .heretofore_right{
+ 	width: 2rem;
+ 	height: 1.92rem;
+ 	background:white;
+ }
+ .words{
+ 	margin:0rem .24rem;
+ 	border-bottom:1px solid #eef0f4; 
+ }
+ .words p{
+ 	font-size:.14rem;
+ 	color: #727375;
+ 	line-height: .18rem;
+ }
+ .words p:nth-child(1){
+ 	padding-top: .23rem;
+ }
+  .words p:nth-child(2){
+ 	font-size:.1rem;
+ }
+ .words a{
+ 	display: block;
+ 	width:.6rem;
+ 	height:.15rem;
+ 	border:1px solid #ff8d6e;
+ 	text-align: center;
+ 	color:#ff734c;
+ 	line-height:.15rem;
+ 	text-decoration:none;
+ 	font-size:.1rem;
+ 	border-radius:0.07rem;
+ 	margin-top: 0.08rem;
+ 	margin-bottom: .11rem;
+ }
+ .classic{
+ 	margin:0rem .24rem;
+ 	border-bottom: 1px solid #eef0f4;
+ }
+ .classic p{
+ 	font-size:.12rem;
+ 	color:#232628;
+ 	padding-top: .12rem;
+ 	padding-bottom: .12rem;
+ }
+ .shopcar{
+ 	margin:0rem .24rem;
+ 	height:.47rem;
+	display: flex;
+	align-items: center;
+ }
+ .shopcar_span{
+ 	display: flex;
+ }
+.shopcar_span span{
+	font-size:.14rem;
+	color: #ff734c;
+	padding-top: 0.01rem;
+}
+.shopcar_span span:nth-child(2){
+	color: #71797f;
+	text-decoration:line-through;
+	font-size:0.08rem;
+}
+.shopcar p{
+	font-size:.1rem;
+	color:#71797f;
+}
+
+.shopcar_left{
+	height:.47rem; 
+}
+.shopcar_right img{
+	width: .18rem;
+	height: .17rem;
+	display: block;
+	margin-left:.46rem;
+}
+/*永生花推荐*/
+.Eternal{
+	width: 100%;
+	height: .56rem;
+	background: red;
+	font-size:.16rem;
+	color:#232628;
+	text-align: center;
+	line-height: .56rem;
+	background: white;
+}
+/*商品详情*/
+.goodslist{
+	width: 100%; 
+	display: flex;
+	justify-content:center;
+	flex-wrap: wrap;
+}
+.goodslist_left{
+	width:50%;
+	height: 3rem;
+}
+.goodslist_top{
+	width:100%;
+	height:1.92rem;
+}
+.goodslist_top img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.goodslist_bottom{
+	width:100%;
+	height: 1.1rem;
+	background:white;
+}
+.Host_style{
+	padding-top: 0.05rem;
+}
+
+.unlimited{
+	width: .58rem;
+	height:.15rem;
+	border: 1px solid #ff9f84;
+	text-align: center;
+	font-size:.1rem;
+	color: #ff734c;
+	line-height: .15rem;
+	border-radius: 0.07rem;
+	margin-top: 0.08rem;
+}
+.unlimited a{
+	color: #ff734c;
+	text-decoration:none;
+}
+.girl p{
+	font-size:.14rem;
+	color:#727375;
+	padding-top: .1rem;
+	padding-bottom:.1rem;
+}
+.money_box{
+	width: 1.6rem;
+	height: .35rem;
+	background: green;
+}
+.money_left{
+	width: 1.6rem;
+	height: .35rem;
+	display: flex;
+}
+.money_left span{
+	font-size:.14rem;
+	color:#ff734c;
+}
+.money_left p{
+	font-size:.1rem;
+	color:#71797f; 
+}
+.shopcar_box{
+   margin:0rem 0rem;
+} 
+/*企业团购*/
+.Enterprise_group{
+	width: 100%;
+	height: 1.25rem;
+}
+.Enterprise_group img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+/*为什么选择我们*/
+
+.brands{
+    width: 100%;
+}
+.brands_top{
+	width: 100%;
+	height: .56rem;
+	background:white;
+	text-align: center;
+	line-height: .56rem;
+}
+.brands_top h3{
+    font-size:.15rem;
+	color:#232628;
+	font-weight: normal;
+}
+.brands_bottom{
+	width: 100%;
+	height: 2.16rem;
+	background: white;
+	display: flex;
+	flex-wrap: wrap;
+}
+.brands-item{
+	width:1.24rem;
+	height: 1.08rem;
+	text-align: center;
+}
+.brands-item img{
+	display:block;
+	width: .64rem;
+	height: .64rem;
+	margin-left:.31rem;
+}
+.brands-item p{
+	font-size:.11rem;
+	color: #232628;
+	padding-top: 0.07rem;
+}
+/*footer*/
+.footer{
+	width: 100%;
+	background:white;
+}
+.footer-links{
+	width: 100%;
+	height: .58rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+ .footer-links-item{
+ 	display: block;
+	color: #232628;
+	font-size:.11rem;
+	text-decoration:none;
+    width:.66rem;
+    height: .24rem;
+    background:#e9ecf0;
+    color: #232628;
+    text-align: center;
+    line-height: .24rem;
+}
+.brower{
+	width: 100%;
+	height: .56rem;
+	display: flex;
+	justify-content: space-around;
+
+}
+.brower_box{
+	width: .46rem;
+	height: .56rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.brower_box img{
+	width: .36rem;
+	height: .36rem;
+	display: block;
+}
+.brower_box p{
+	font-size:.11rem;
+	color:#232628;
+}
+.copyright{
+	width: 100%;
+	height:.54rem;
+	text-align: center;
+}
+.copyright p{
+	font-size:0.09rem;
+	color: #b4bac9;
+	padding-top: .16rem;
+}
+/*Tabbar*/
+.tabbar{
+	width: 100%;
+	height: .49rem;
+	background:white;
+  display: flex;
+}
+.tabbar-item{
+	width:.9rem;
+	height:.49rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.tabbar_box{
+	width: .9rem;
+	height: .26rem;
+  display: flex;
+  justify-content: center;
+ 
+}
+.tabbar_box img{
+	width:0.24rem;
+	height: 100%;
+	display: block;
+}
+.tabbar_words{
+  text-align:center;
+}
+.tabbar_words p{
+	width: .94rem;
+    font-size:.1rem;
+    color:#232628;
+}
+.tabbar_words .kind{
+  color: #ff734c;
+}

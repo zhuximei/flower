@@ -1,0 +1,166 @@
+body,p,dl,dd,ul,ol,li,div,h1,h2,h3,h4,h5,h6,form,input,table,tr,td{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: "微软雅黑",Arial;
+	background: #e9ecf0;
+	background: white;
+	/*height: 100%;
+	display: -webkit-flex;
+	-webkit-flex-direction:column;*/
+}
+html{
+	/*font-size: 100px;*/
+	font-size: 26.67vw;
+	/*height: 100%;*/
+}
+ul,ol{
+	list-style:none;
+}
+img{
+	border: 0;
+}
+/*header*/
+.header{
+	width: 100%;
+	height: .44rem;
+}
+.header_box{
+	width: .44rem;
+	height: .44rem;
+	text-align: center;
+	line-height: .44rem;
+}
+.header_box h3{
+	font-size:.26rem;
+	color:#332c46;
+	font-weight: normal;
+}
+/*section*/
+.section{
+	width: 100%;
+	/*height: 3.81rem;*/
+}
+.section_title{
+	width: 100%;
+	height: 1.04rem;
+	font-size:.22rem;
+	color:#3b3630;
+	text-align: center;
+	line-height: 1.04rem;
+}
+.phone{
+	width: 3.43rem;
+	height: .44rem;
+	/*background:green;*/
+	display:flex;
+	margin-left: .16rem;
+	border-bottom: 1px solid  #edf0f3;
+}
+input::-webkit-input-placeholder{
+    color:#d7dadd;
+    font-size:.12rem;
+}
+.input_box{
+	width:3rem;
+	border:none;
+	font-size:.12rem;
+	text-indent: 0.02rem;
+	outline: none;
+}
+#span-box{
+	display:block;
+	height: .44rem;
+	line-height: .44rem;
+	font-size:.14rem;
+	color: red;
+}
+.Verification_code{
+	width: 3.43rem;
+	height: .44rem;
+	display:flex;
+	margin-left: .16rem;
+	border-bottom: 1px solid  #edf0f3;
+}
+.Verification_code a{
+	text-decoration: none;
+}
+.Verification_code span{
+	font-size:.12rem;
+	color:#71797f;
+	line-height: .44rem;
+	display: flex;
+}
+.input_box1{
+	border:none;
+	width:2.74rem;
+	outline: none;
+}
+.pass{
+	width: 3.43rem;
+	height: .44rem;
+	display:flex;
+	margin-left: .16rem;
+	border-bottom: 1px solid  #edf0f3;
+}
+.input_box2{
+	border:none;
+	width:2.6rem;
+	outline: none;
+}
+#span-box1{
+	font-size: .14rem;
+	color: red;
+	width: .2rem;
+	height: .44rem;
+	display:block;
+	line-height: .44rem;
+	margin-left: .15rem;
+}
+.photo{
+	display: flex;
+	height: .44rem;
+	margin-top: .24rem;
+}
+.photo img{
+	display:block;
+}
+.photo span{
+	display: block;
+	width: .2rem;
+	height: .44rem;
+}
+.photo span:nth-child(2){
+	display: none;
+}
+.reg_box{
+	width: 100%;
+	height:.46rem;
+	display: flex;
+	margin-top: .45rem;
+}
+.formbtn{
+	width: 3.43rem;
+	height: .46rem;
+	background:#ff734c;
+	border:1px solid #ff734c;
+	color: white;
+	font-size:.14rem;
+	border-radius:.25rem;
+	margin-left:.16rem;
+	outline: none;
+}
+.email{
+	width: 100%;
+	height: .37rem;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	margin-top: .2rem;
+}
+.email a{
+	font-size:.12rem;
+	color:#71797f;
+	text-decoration: none;
+}
